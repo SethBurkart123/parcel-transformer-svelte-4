@@ -21,7 +21,7 @@ After this you should configure in `.parcelrc` the transformation for Svelte fil
 {
   "extends": ["@parcel/config-default"],
   "transformers": {
-    "*.svelte": ["parcel-transformer-svelte"]
+    "*.svelte": ["parcel-transformer-svelte-4"]
   }
 }
 ```
